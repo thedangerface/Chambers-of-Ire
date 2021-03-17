@@ -1,7 +1,2623 @@
 fileFormatVersion: 2
 guid: c152ac87cd163df4b9047239adea64f8
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: b6382c40c629eef48b13685e184932d7, type: 3}
+  importOptions:
+    scale: 1
+    splitLayers: 0
+    splitSlices: 0
+    fileNameFormat: '{title}_{tag}_frame{tagframe1}'
+    ditheringAlgorithmType: 0
+    ditheringMatrixType: 0
+    colorMode: 0
+  spriteImportOptions:
+    pixelsPerUnit: 100
+    pivot: {x: 0.5, y: 0.5}
+    extrude: 0
+    meshType: 1
+    border: {x: 0, y: 0, z: 0, w: 0}
+  textureCreationOptions:
+    textureWrapMode: 1
+    filterMode: 0
+    alphaIsTransparency: 1
+  colabOptions:
+    exportToFile: 0
+    exportDirectory: Sprites/{filename}
+  animationOptions:
+  - tagName: Super Attack
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Chain attack
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: attack 2
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: attack 3
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: run
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Jet pack
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: jet stop
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Dash Teleport
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: damaged
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: attack 1
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: jump
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: fall
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: land
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: fall high
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Death
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Idle
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: attack 4
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: run attack
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: blaster 1
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: blaster 2
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: run blaster
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: jump blaster
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: fall blaster
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: land blaster
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: landing
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: climb
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: idle blaster
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  sheetData:
+    frames:
+    - filename: Sci Fi Hero _Super Attack_frame1
+      frame:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame2
+      frame:
+        x: 128
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame3
+      frame:
+        x: 256
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame4
+      frame:
+        x: 384
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame5
+      frame:
+        x: 512
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame6
+      frame:
+        x: 640
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame7
+      frame:
+        x: 768
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame8
+      frame:
+        x: 896
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame9
+      frame:
+        x: 1024
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame10
+      frame:
+        x: 1152
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame11
+      frame:
+        x: 1280
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame12
+      frame:
+        x: 1408
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame13
+      frame:
+        x: 1536
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Super Attack_frame14
+      frame:
+        x: 1664
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 1_frame1
+      frame:
+        x: 1792
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 1_frame2
+      frame:
+        x: 1920
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 1_frame3
+      frame:
+        x: 2048
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 1_frame4
+      frame:
+        x: 2176
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 1_frame5
+      frame:
+        x: 2304
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 1_frame6
+      frame:
+        x: 2432
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 2_frame1
+      frame:
+        x: 2560
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 2_frame2
+      frame:
+        x: 2688
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 2_frame3
+      frame:
+        x: 2816
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 2_frame4
+      frame:
+        x: 2944
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 2_frame5
+      frame:
+        x: 3072
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 2_frame6
+      frame:
+        x: 3200
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 3_frame1
+      frame:
+        x: 3328
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 3_frame2
+      frame:
+        x: 3456
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 3_frame3
+      frame:
+        x: 3584
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 3_frame4
+      frame:
+        x: 3712
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 3_frame5
+      frame:
+        x: 3840
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run_frame1
+      frame:
+        x: 3968
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run_frame2
+      frame:
+        x: 4096
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run_frame3
+      frame:
+        x: 4224
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run_frame4
+      frame:
+        x: 4352
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run_frame5
+      frame:
+        x: 4480
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run_frame6
+      frame:
+        x: 4608
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _jump_frame1
+      frame:
+        x: 4736
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _jump_frame2
+      frame:
+        x: 4864
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _fall_frame1
+      frame:
+        x: 4992
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _fall_frame2
+      frame:
+        x: 5120
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _land_frame1
+      frame:
+        x: 5248
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Jet pack_frame1
+      frame:
+        x: 5376
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Jet pack_frame2
+      frame:
+        x: 5504
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Jet pack_frame3
+      frame:
+        x: 5632
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Jet pack_frame4
+      frame:
+        x: 5760
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _jet stop_frame1
+      frame:
+        x: 5888
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _jet stop_frame2
+      frame:
+        x: 6016
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _jet stop_frame3
+      frame:
+        x: 6144
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _jet stop_frame4
+      frame:
+        x: 6272
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _fall high_frame1
+      frame:
+        x: 6400
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _fall high_frame2
+      frame:
+        x: 6528
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _fall high_frame3
+      frame:
+        x: 6656
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _fall high_frame4
+      frame:
+        x: 6784
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Dash Teleport_frame1
+      frame:
+        x: 6912
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Dash Teleport_frame2
+      frame:
+        x: 7040
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Dash Teleport_frame3
+      frame:
+        x: 7168
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Dash Teleport_frame4
+      frame:
+        x: 7296
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Dash Teleport_frame5
+      frame:
+        x: 7424
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Dash Teleport_frame6
+      frame:
+        x: 7552
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Dash Teleport_frame7
+      frame:
+        x: 7680
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _damaged_frame1
+      frame:
+        x: 7808
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _damaged_frame2
+      frame:
+        x: 7936
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _damaged_frame3
+      frame:
+        x: 8064
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _damaged_frame4
+      frame:
+        x: 8192
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Death_frame1
+      frame:
+        x: 8320
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Death_frame2
+      frame:
+        x: 8448
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Death_frame3
+      frame:
+        x: 8576
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Death_frame4
+      frame:
+        x: 8704
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Death_frame5
+      frame:
+        x: 8832
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Death_frame6
+      frame:
+        x: 8960
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Death_frame7
+      frame:
+        x: 9088
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Death_frame8
+      frame:
+        x: 9216
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _Idle_frame1
+      frame:
+        x: 9344
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 250
+    - filename: Sci Fi Hero _Idle_frame2
+      frame:
+        x: 9472
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 250
+    - filename: Sci Fi Hero _attack 4_frame1
+      frame:
+        x: 9600
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 4_frame2
+      frame:
+        x: 9728
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 4_frame3
+      frame:
+        x: 9856
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 4_frame4
+      frame:
+        x: 9984
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 4_frame5
+      frame:
+        x: 10112
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 4_frame6
+      frame:
+        x: 10240
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 4_frame7
+      frame:
+        x: 10368
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 4_frame8
+      frame:
+        x: 10496
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 4_frame9
+      frame:
+        x: 10624
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _attack 4_frame10
+      frame:
+        x: 10752
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run attack_frame1
+      frame:
+        x: 10880
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run attack_frame2
+      frame:
+        x: 11008
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run attack_frame3
+      frame:
+        x: 11136
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run attack_frame4
+      frame:
+        x: 11264
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run attack_frame5
+      frame:
+        x: 11392
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run attack_frame6
+      frame:
+        x: 11520
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 1_frame1
+      frame:
+        x: 11648
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 1_frame2
+      frame:
+        x: 11776
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 1_frame3
+      frame:
+        x: 11904
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 1_frame4
+      frame:
+        x: 12032
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 1_frame5
+      frame:
+        x: 12160
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 1_frame6
+      frame:
+        x: 12288
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 2_frame1
+      frame:
+        x: 12416
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 2_frame2
+      frame:
+        x: 12544
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 2_frame3
+      frame:
+        x: 12672
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 2_frame4
+      frame:
+        x: 12800
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 2_frame5
+      frame:
+        x: 12928
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 2_frame6
+      frame:
+        x: 13056
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _blaster 2_frame7
+      frame:
+        x: 13184
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run blaster_frame1
+      frame:
+        x: 13312
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run blaster_frame2
+      frame:
+        x: 13440
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run blaster_frame3
+      frame:
+        x: 13568
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run blaster_frame4
+      frame:
+        x: 13696
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run blaster_frame5
+      frame:
+        x: 13824
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _run blaster_frame6
+      frame:
+        x: 13952
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _jump blaster_frame1
+      frame:
+        x: 14080
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _fall blaster_frame1
+      frame:
+        x: 14208
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _land blaster_frame1
+      frame:
+        x: 14336
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _landing_frame1
+      frame:
+        x: 14464
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _landing_frame2
+      frame:
+        x: 14592
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _landing_frame3
+      frame:
+        x: 14720
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _landing_frame4
+      frame:
+        x: 14848
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _climb_frame1
+      frame:
+        x: 14976
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _climb_frame2
+      frame:
+        x: 15104
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _climb_frame3
+      frame:
+        x: 15232
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _climb_frame4
+      frame:
+        x: 15360
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 100
+    - filename: Sci Fi Hero _idle blaster_frame1
+      frame:
+        x: 15488
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 250
+    - filename: Sci Fi Hero _idle blaster_frame2
+      frame:
+        x: 15616
+        y: 0
+        w: 128
+        h: 64
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 128
+        h: 64
+      sourceSize:
+        w: 128
+        h: 64
+      duration: 250
+    meta:
+      version: 1.2.25-x64
+      image: Sci Fi Hero _sheet.png
+      format: RGBA8888
+      size:
+        w: 15744
+        h: 64
+      scale: 1
+      frameTags:
+      - name: Super Attack
+        from: 0
+        to: 13
+        direction: forward
+      - name: Chain attack
+        from: 14
+        to: 30
+        direction: forward
+      - name: attack 1
+        from: 14
+        to: 19
+        direction: forward
+      - name: attack 2
+        from: 20
+        to: 25
+        direction: forward
+      - name: attack 3
+        from: 26
+        to: 30
+        direction: forward
+      - name: run
+        from: 31
+        to: 36
+        direction: forward
+      - name: jump
+        from: 37
+        to: 38
+        direction: forward
+      - name: fall
+        from: 39
+        to: 40
+        direction: forward
+      - name: land
+        from: 41
+        to: 41
+        direction: forward
+      - name: Jet pack
+        from: 42
+        to: 45
+        direction: forward
+      - name: jet stop
+        from: 46
+        to: 49
+        direction: forward
+      - name: fall high
+        from: 50
+        to: 53
+        direction: forward
+      - name: Dash Teleport
+        from: 54
+        to: 60
+        direction: forward
+      - name: damaged
+        from: 61
+        to: 64
+        direction: forward
+      - name: Death
+        from: 65
+        to: 72
+        direction: forward
+      - name: Idle
+        from: 73
+        to: 74
+        direction: forward
+      - name: attack 4
+        from: 75
+        to: 84
+        direction: forward
+      - name: run attack
+        from: 85
+        to: 90
+        direction: forward
+      - name: blaster 1
+        from: 91
+        to: 96
+        direction: forward
+      - name: blaster 2
+        from: 97
+        to: 103
+        direction: forward
+      - name: run blaster
+        from: 104
+        to: 109
+        direction: forward
+      - name: jump blaster
+        from: 110
+        to: 110
+        direction: forward
+      - name: fall blaster
+        from: 111
+        to: 111
+        direction: forward
+      - name: land blaster
+        from: 112
+        to: 112
+        direction: forward
+      - name: landing
+        from: 113
+        to: 116
+        direction: forward
+      - name: climb
+        from: 117
+        to: 120
+        direction: forward
+      - name: idle blaster
+        from: 121
+        to: 122
+        direction: forward
+      slices: []
+    pathToSheetData: Temp/UnityTempFile-d6a3b3469af82e64c9ac8953440caf53/asetempexports/SciFiHero_data.json
+    aseFileName: Assets/Penusbmic Art/Hero/Sci Fi Hero .aseprite
