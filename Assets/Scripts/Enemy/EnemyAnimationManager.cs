@@ -2,19 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAnimationManager : MonoBehaviour
+public class EnemyAnimationManager : MonoBehaviour
 {
     [SerializeField] GameObject runAttack, attack1, attack2, attack3, attack4, superAttack, hitbox;
-    [SerializeField] float timescale = 1;
     [SerializeField] bool flip, facingRight = true;
 
     private void Update()
     {
-        Time.timeScale = timescale;
-        FlipPlayer();
+        FlipUnit();
     }
 
-    private void FlipPlayer()
+    private void FlipUnit()
     {
         if (flip)
         {
@@ -25,14 +23,14 @@ public class PlayerAnimationManager : MonoBehaviour
             if (x > 0)
             {
                 //shift left
-                transform.Translate(Vector3.left * 1.25f);
+                //transform.Translate(Vector3.left * 1.25f);
                 facingRight = false;
             }
 
             else if (x < 0)
             {
                 //shift right
-                transform.Translate(Vector3.right * 1.25f);
+                //transform.Translate(Vector3.right * 1.25f);
                 facingRight = true;
             }
 
@@ -43,62 +41,122 @@ public class PlayerAnimationManager : MonoBehaviour
 
     void Attack1On()
     {
-        attack1.SetActive(true);
+        if (attack1 == null)
+        {
+
+        }
+        else
+            attack1.SetActive(true);
     }
 
     void Attack1Off()
     {
-        attack1.SetActive(false);
+        if (attack1 == null)
+        {
+
+        }
+        else
+            attack1.SetActive(false);
     }
 
     void Attack2On()
     {
-        attack2.SetActive(true);
+        if (attack2 == null)
+        {
+
+        }
+        else
+            attack2.SetActive(true);
     }
 
     void Attack2Off()
     {
-        attack2.SetActive(false);
+        if (attack2 == null)
+        {
+
+        }
+        else
+            attack2.SetActive(false);
     }
 
     void Attack3On()
     {
-        attack3.SetActive(true);
+        if (attack3 == null)
+        {
+
+        }
+        else
+            attack3.SetActive(true);
     }
 
     void Attack3Off()
     {
-        attack3.SetActive(false);
+        if (attack3 == null)
+        {
+
+        }
+        else
+            attack3.SetActive(false);
     }
 
     void Attack4On()
     {
-        attack4.SetActive(true);
+        if (attack4 == null)
+        {
+
+        }
+        else
+            attack4.SetActive(true);
     }
 
     void Attack4Off()
     {
-        attack4.SetActive(false);
+        if (attack4 == null)
+        {
+
+        }
+        else
+            attack4.SetActive(false);
     }
 
     void SuperAttackOn()
     {
-        superAttack.SetActive(true);
+        if (superAttack == null)
+        {
+
+        }
+        else
+            superAttack.SetActive(true);
     }
 
     void SuperAttackOff()
     {
-        superAttack.SetActive(false);
+        if (superAttack == null)
+        {
+
+        }
+        else
+            superAttack.SetActive(false);
     }
 
     void RunAttackOn()
     {
-        runAttack.SetActive(true);
+        if (runAttack == null)
+        {
+
+        }
+        else
+            runAttack.SetActive(true);
     }
 
     void RunAttackOff()
     {
-        runAttack.SetActive(false);
+        if (runAttack == null)
+        {
+
+        }
+        else
+            runAttack.SetActive(false);
     }
 
     public void RunAttackReposition()

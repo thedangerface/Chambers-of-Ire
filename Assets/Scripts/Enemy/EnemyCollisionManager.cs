@@ -12,7 +12,7 @@ public class EnemyCollisionManager : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Trigger entered: " + collision.gameObject.name);
+        //Debug.Log("Trigger entered: " + collision.gameObject.name);
         if (collision.gameObject.tag == "attack box")
         {
             animator.SetTrigger("damaged");
