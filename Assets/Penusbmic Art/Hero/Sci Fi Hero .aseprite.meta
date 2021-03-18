@@ -28,7 +28,7 @@ ScriptedImporter:
     alphaIsTransparency: 1
   colabOptions:
     exportToFile: 0
-    exportDirectory: Sprites/{filename}
+    exportDirectory: 
   animationOptions:
   - tagName: Super Attack
     animationOptions:
@@ -2619,5 +2619,5 @@ ScriptedImporter:
         to: 122
         direction: forward
       slices: []
-    pathToSheetData: Temp/UnityTempFile-d6a3b3469af82e64c9ac8953440caf53/asetempexports/SciFiHero_data.json
+    pathToSheetData: Temp/UnityTempFile-dfc187d862c8ae4448cbc6544bcbe270/asetempexports/SciFiHero_data.json
     aseFileName: Assets/Penusbmic Art/Hero/Sci Fi Hero .aseprite
