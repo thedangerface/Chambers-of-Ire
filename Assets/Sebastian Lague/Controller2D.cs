@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(PlayerAnimationManager))]
+
 public class Controller2D : RaycastController
 {
 
@@ -8,10 +10,14 @@ public class Controller2D : RaycastController
 	float maxDescendAngle = 80;
 
 	public CollisionInfo collisions;
+	PlayerAnimationManager playerAnimationManager;
+
 
 	public override void Start()
 	{
 		base.Start();
+		collisions.faceDirection = 1;
+		playerAnimationManager = GetComponent<PlayerAnimationManager>();
 
 	}
 
@@ -20,6 +26,11 @@ public class Controller2D : RaycastController
 		UpdateRaycastOrigins();
 		collisions.Reset();
 		collisions.velocityOld = velocity;
+
+        if (velocity.x != 0)
+        {
+			collisions.faceDirection = (int)Mathf.Sign(velocity.x);
+        }
 
 		if (velocity.y < 0)
 		{
@@ -40,12 +51,21 @@ public class Controller2D : RaycastController
 		{
 			collisions.below = true;
 		}
-	}
+
+		playerAnimationManager.stateInfo.collisionsBelowOld = playerAnimationManager.stateInfo.collisionsBelow;
+		playerAnimationManager.stateInfo.collisionsBelow = collisions.below;
+        playerAnimationManager.stateInfo.velocity = velocity;
+    }
 
 	void HorizontalCollisions(ref Vector3 velocity)
 	{
-		float directionX = Mathf.Sign(velocity.x);
+		float directionX = collisions.faceDirection;
 		float rayLength = Mathf.Abs(velocity.x) + skinWidth;
+
+        if (Mathf.Abs(velocity.x) < skinWidth)
+        {
+			rayLength = 2 * skinWidth;
+        }
 
 		for (int i = 0; i < horizontalRayCount; i++)
 		{
@@ -200,6 +220,9 @@ public class Controller2D : RaycastController
 		public bool climbingSlope;
 		public bool descendingSlope;
 		public float slopeAngle, slopeAngleOld;
+
+		public int faceDirection;
+
 		public Vector3 velocityOld;
 
 		public void Reset()

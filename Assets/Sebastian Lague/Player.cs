@@ -11,16 +11,22 @@ public class Player : MonoBehaviour
     float accelerationTimeGrounded = .1f;
     float moveSpeed = 6;
 
+    public float wallSlideSpeedMax = 3;
+
     float gravity;
     float jumpVelocity;
     Vector3 velocity;
     float velocityXSmoothing;
 
     Controller2D controller;
+
+    PlayerAnimationManager playerAnimationManager;
+
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<Controller2D>();
+        playerAnimationManager = GetComponent<PlayerAnimationManager>();
 
         gravity = -(2 * jumpHeight) / Mathf.Pow(timeToJumpApex, 2);
         jumpVelocity = Mathf.Abs(gravity * timeToJumpApex);
@@ -30,6 +36,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (controller.collisions.above || controller.collisions.below)
         {
             velocity.y = 0;
@@ -57,6 +64,11 @@ public class Player : MonoBehaviour
             // don't forget to compensate for gravity's pull
 
             //print("space released at " + Time.time);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Keypad0))
+        {
+            playerAnimationManager.stateInfo.attacking = true;
         }
 
         float targetVelocityX = input.x * moveSpeed;

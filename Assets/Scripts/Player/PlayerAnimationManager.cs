@@ -6,39 +6,31 @@ public class PlayerAnimationManager : MonoBehaviour
 {
     [SerializeField] GameObject runAttack, attack1, attack2, attack3, attack4, superAttack, hitbox;
     [SerializeField] float timescale = 1;
-    [SerializeField] bool flip, facingRight = true;
+    public enum State { idle, running, jumping, falling, damaged, landing, runningAttack, attacking }
+    public State animationState;
+    public StateInfo stateInfo;
+    [SerializeField] Animator animator;
+
+    private void Start()
+    {
+        stateInfo = new StateInfo();
+        stateInfo.facingRight = true;
+        stateInfo.facingRightOld = true;
+        Physics2D.IgnoreLayerCollision(9, 10);
+    }
 
     private void Update()
     {
+        CheckState();
         Time.timeScale = timescale;
-        FlipPlayer();
     }
 
     private void FlipPlayer()
     {
-        if (flip)
-        {
-            float x = transform.localScale.x;
-            float y = transform.localScale.y;
-            float z = transform.localScale.z;
-
-            if (x > 0)
-            {
-                //shift left
-                transform.Translate(Vector3.left * 1.25f);
-                facingRight = false;
-            }
-
-            else if (x < 0)
-            {
-                //shift right
-                transform.Translate(Vector3.right * 1.25f);
-                facingRight = true;
-            }
-
-            transform.localScale = new Vector3(-x, y, z);
-            flip = false;
-        }
+        float x = transform.localScale.x;
+        float y = transform.localScale.y;
+        float z = transform.localScale.z;
+        transform.localScale = new Vector3(-x, y, z);
     }
 
     void Attack1On()
@@ -49,6 +41,26 @@ public class PlayerAnimationManager : MonoBehaviour
     void Attack1Off()
     {
         attack1.SetActive(false);
+    }
+
+    void Attack1End()
+    {
+        stateInfo.attacking = false;
+    }
+    void Attack1RunningOn()
+    {
+        attack1.SetActive(true);
+    }
+
+    void Attack1RunningOff()
+    {
+        attack1.SetActive(false);
+    }
+
+    void Attack1RunningEnd()
+    {
+        animator.SetBool("attack1running", false);
+        stateInfo.attacking = false;
     }
 
     void Attack2On()
@@ -103,21 +115,160 @@ public class PlayerAnimationManager : MonoBehaviour
 
     public void RunAttackReposition()
     {
-        if (facingRight)
-        {
-            transform.Translate(Vector3.right * 1.75f);
-        }
-        else
-            transform.Translate(Vector3.left * 1.75f);
+        //if (facingRight)
+        //{
+        //    transform.Translate(Vector3.right * 1.75f);
+        //}
+        //else
+        //    transform.Translate(Vector3.left * 1.75f);
     }
 
     public void SuperAttackReposition()
     {
-        if (facingRight)
+        //if (facingRight)
+        //{
+        //    transform.Translate(Vector3.left * .48f);
+        //}
+        //else
+        //    transform.Translate(Vector3.right * .48f);
+    }
+
+    // State Machine
+
+    public void CheckState()
+    {
+        ResetAnimator();
+        stateInfo.facingRightOld = stateInfo.facingRight;
+       
+        // are we damaged?
+        if (stateInfo.damaged)
         {
-            transform.Translate(Vector3.left * .48f);
+            // state = damaged
+            animationState = State.damaged;
         }
-        else
-            transform.Translate(Vector3.right * .48f);
+
+        // are we grounded?
+        else if (stateInfo.collisionsBelow)
+        {
+            // did we just land?
+            if (stateInfo.collisionsBelowOld != stateInfo.collisionsBelow)
+            {
+                animationState = State.landing;
+                SetAnimatorState("landing");
+            }
+
+            // are we moving horizontally?
+            else if (Mathf.Abs(stateInfo.velocity.x) > 0.001f)
+            {
+                if (stateInfo.attacking)
+                {
+                    // attack 1 running
+                    animationState = State.runningAttack;
+                    SetAnimatorState("attack1running");
+                }
+                else
+                {
+                    // state = running
+                    animationState = State.running;
+                    SetAnimatorState("running");
+                }
+            }
+            else if (stateInfo.velocity.x <= 0.001f)
+            {
+                if (stateInfo.attacking)
+                {
+                    GroundAttackTree();
+                }
+                else
+                {
+                    animationState = State.idle;
+                    SetAnimatorState("idle");
+                }
+            }
+        }
+
+        // are we in the air
+        else if (!stateInfo.collisionsBelow)
+        {
+            if (stateInfo.attacking)
+            {
+                animationState = State.attacking;
+                GroundAttackTree();
+            }
+
+            else if (stateInfo.velocity.y > 0)
+            {
+                // we are jumping
+                animationState = State.jumping;
+                SetAnimatorState("jumping");
+            }
+
+            else if (stateInfo.velocity.y < 0)
+            {
+                // we are falling
+                animationState = State.falling;
+                SetAnimatorState("falling");
+            }
+            
+
+        }
+
+        // flip animation 
+        {
+            if (Input.GetAxisRaw("Horizontal") > 0) 
+                stateInfo.facingRight = true;
+            else if (Input.GetAxisRaw("Horizontal") < 0)
+                stateInfo.facingRight = false;
+            if (stateInfo.facingRight != stateInfo.facingRightOld)
+                FlipPlayer();
+        }
+    }
+
+    private void GroundAttackTree()
+    {
+        animationState = State.attacking;
+        // which attack? 
+
+        // dash will be considered an attack - even if we decide it doesn't damage. 
+
+        // attack 1
+        SetAnimatorState("attack1");
+        // attack 2
+
+        // attack 3
+
+        // attack 4
+
+        // super attack
+    }
+
+    void ResetAnimator()
+    {
+        animator.SetBool("idle", false);
+        animator.SetBool("running", false);
+        animator.SetBool("jumping", false);
+        animator.SetBool("falling", false);
+        animator.SetBool("landing", false);
+        animator.SetBool("attack1", false);
+        animator.SetBool("attack1running", false);
+    }
+
+    void SetAnimatorState(string state)
+    {
+        animator.SetBool(state, true);
+    }
+
+    public struct StateInfo
+    {
+        public bool collisionsBelow;
+        public bool collisionsBelowOld;
+        public bool damaged;
+        public bool attacking;
+        public bool attackingOld;
+        public Vector2 velocity;
+        //public State state;
+        //public State stateOld;
+        public bool facingRight;
+        public bool facingRightOld;
     }
 }
