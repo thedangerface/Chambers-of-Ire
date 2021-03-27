@@ -36,7 +36,6 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (controller.collisions.above || controller.collisions.below)
         {
             velocity.y = 0;
