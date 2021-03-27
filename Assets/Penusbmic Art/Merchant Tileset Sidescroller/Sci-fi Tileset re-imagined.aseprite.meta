@@ -27,7 +27,7 @@ ScriptedImporter:
     filterMode: 0
     alphaIsTransparency: 1
   colabOptions:
-    exportToFile: 0
+    exportToFile: 1
     exportDirectory: Sprites/{filename}
   animationOptions: []
   sheetData:

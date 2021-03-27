@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: 1771f9d0f98f21d43b6babbe7d00a28b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 616431292374116035
+    second: deep pink clouds_0
+  - first:
+      213: -5547842411009944212
+    second: deep pink clouds_1
+  - first:
+      213: -1345162418146083099
+    second: deep pink clouds_2
+  - first:
+      213: -5925036652256995533
+    second: deep pink clouds_3
+  - first:
+      213: 4219515292579372919
+    second: deep pink clouds_4
+  - first:
+      213: -7460305151813852995
+    second: deep pink clouds_5
+  - first:
+      213: -621666201133158290
+    second: deep pink clouds_6
+  - first:
+      213: -1769386093903738719
+    second: deep pink clouds_7
+  - first:
+      213: 7688799307647222396
+    second: deep pink clouds_8
+  - first:
+      213: -6436385105158821788
+    second: deep pink clouds_9
+  - first:
+      213: 8427837434219972598
+    second: deep pink clouds_10
+  - first:
+      213: -2633283378662337270
+    second: deep pink clouds_11
+  - first:
+      213: 1642674521486114716
+    second: deep pink clouds_12
+  - first:
+      213: -8029933610388386525
+    second: deep pink clouds_13
+  - first:
+      213: -4982894506164756460
+    second: deep pink clouds_14
+  - first:
+      213: 1034383194855058655
+    second: deep pink clouds_15
+  - first:
+      213: 3005578797974038502
+    second: deep pink clouds_16
+  - first:
+      213: 8600270408997885752
+    second: deep pink clouds_17
+  - first:
+      213: 6541282874785697833
+    second: deep pink clouds_18
+  - first:
+      213: -148887726856428464
+    second: deep pink clouds_19
+  - first:
+      213: -2013052827483266447
+    second: deep pink clouds_20
+  - first:
+      213: -7040574665949415645
+    second: deep pink clouds_21
+  - first:
+      213: 5042228607328743981
+    second: deep pink clouds_22
+  - first:
+      213: -2206863579694203467
+    second: deep pink clouds_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deep pink clouds_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6e4629ef00e8800800000000000000
+      internalID: 616431292374116035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65d7ed88ba1203b0800000000000000
+      internalID: -5547842411009944212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_2
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee723d58e5055de0800000000000000
+      internalID: -1345162418146083099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_3
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3375d059e8a06cda0800000000000000
+      internalID: -5925036652256995533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_4
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f958a7dcabe8a30800000000000000
+      internalID: 4219515292579372919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_5
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db06e16adfba77890800000000000000
+      internalID: -7460305151813852995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_6
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60779042e56f57f0800000000000000
+      internalID: -621666201133158290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_7
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a80a52e8b0e177e0800000000000000
+      internalID: -1769386093903738719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_8
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c720599bb3a14ba60800000000000000
+      internalID: 7688799307647222396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_9
+      rect:
+        serializedVersion: 2
+        x: 3438
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468a46929dd5da6a0800000000000000
+      internalID: -6436385105158821788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_10
+      rect:
+        serializedVersion: 2
+        x: 3820
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7cb6b6e71b5f470800000000000000
+      internalID: 8427837434219972598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_11
+      rect:
+        serializedVersion: 2
+        x: 4202
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0514e508b2b47bd0800000000000000
+      internalID: -2633283378662337270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_12
+      rect:
+        serializedVersion: 2
+        x: 4584
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fb3c626c3fbc610800000000000000
+      internalID: 1642674521486114716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_13
+      rect:
+        serializedVersion: 2
+        x: 4966
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d84defce1ff8090800000000000000
+      internalID: -8029933610388386525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_14
+      rect:
+        serializedVersion: 2
+        x: 5348
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410edced8d339dab0800000000000000
+      internalID: -4982894506164756460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_15
+      rect:
+        serializedVersion: 2
+        x: 5730
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc28fa090eda5e00800000000000000
+      internalID: 1034383194855058655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_16
+      rect:
+        serializedVersion: 2
+        x: 6112
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e720b51ef5f5b920800000000000000
+      internalID: 3005578797974038502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_17
+      rect:
+        serializedVersion: 2
+        x: 6494
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8375f9cee5c4a5770800000000000000
+      internalID: 8600270408997885752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_18
+      rect:
+        serializedVersion: 2
+        x: 6876
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92092fe0e1e47ca50800000000000000
+      internalID: 6541282874785697833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_19
+      rect:
+        serializedVersion: 2
+        x: 7258
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054ae49b66b0fedf0800000000000000
+      internalID: -148887726856428464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_20
+      rect:
+        serializedVersion: 2
+        x: 7640
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172a3c77e133014e0800000000000000
+      internalID: -2013052827483266447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_21
+      rect:
+        serializedVersion: 2
+        x: 8022
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3277875d4aada4e90800000000000000
+      internalID: -7040574665949415645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_22
+      rect:
+        serializedVersion: 2
+        x: 8404
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d227428143899f540800000000000000
+      internalID: 5042228607328743981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deep pink clouds_23
+      rect:
+        serializedVersion: 2
+        x: 8786
+        y: 0
+        width: 382
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd74984445af51e0800000000000000
+      internalID: -2206863579694203467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
