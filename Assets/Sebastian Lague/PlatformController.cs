@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 public class PlatformController : RaycastController
 {
-
 	public LayerMask passengerMask;
 
 	public Vector3[] localWaypoints;
@@ -36,7 +35,6 @@ public class PlatformController : RaycastController
 
 	void Update()
 	{
-
 		UpdateRaycastOrigins();
 
 		Vector3 velocity = CalculatePlatformMovement();

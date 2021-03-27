@@ -5,20 +5,17 @@ using System.Collections;
 
 public class Controller2D : RaycastController
 {
-
 	float maxClimbAngle = 80;
 	float maxDescendAngle = 80;
 
 	public CollisionInfo collisions;
 	PlayerAnimationManager playerAnimationManager;
 
-
 	public override void Start()
 	{
 		base.Start();
 		collisions.faceDirection = 1;
 		playerAnimationManager = GetComponent<PlayerAnimationManager>();
-
 	}
 
 	public void Move(Vector3 velocity, bool standingOnPlatform = false)

@@ -12,11 +12,9 @@ public class PlayerCollisionManager : MonoBehaviour
         if (collision.gameObject.tag == "enemy attack box")
         {
             if (animator == null)
-            {
+                return;
 
-            }
-            else
-                animator.SetTrigger("damaged");
+            animator.SetTrigger("damaged");
         }
     }
 }
