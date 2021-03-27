@@ -438,6 +438,7 @@ GameObject:
   - component: {fileID: 1676929199125309082}
   - component: {fileID: 1678090707587875610}
   - component: {fileID: 3775917067639741553}
+  - component: {fileID: 540773570}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -521,9 +522,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1694182613
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: -2818875442926829101, guid: 9ee304cdec2fa464a82fb6bcf9f2af31,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -637,9 +638,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c79edfda522b3a4daad6f0ce75002c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpHeight: 2
+  jumpHeight: 2.5
   timeToJumpApex: 0.5
+  moveSpeed: 4.5
+  wallJumpClimb: {x: 2, y: 8}
+  wallJumpOff: {x: 5, y: 7}
+  wallLeap: {x: 7, y: 11}
   wallSlideSpeedMax: 3
+  wallStickTime: 1
+--- !u!114 &540773570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398852373662809221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09f895789934e2e408ff8defa6a2d640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 8
+  healthMax: 8
 --- !u!1 &398852373867055202
 GameObject:
   m_ObjectHideFlags: 0

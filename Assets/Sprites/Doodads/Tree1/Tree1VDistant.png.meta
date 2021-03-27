@@ -1,112 +1,151 @@
 fileFormatVersion: 2
-guid: 3c17a4fc20e76a44ca6fca1fd5c92bd8
+guid: 5fc81e78e2b234741b39ca65b412e4c4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8981581161614774917
-    second: DoorAnimation_0
+      213: -983088553379342373
+    second: Tree1VDistant_0
   - first:
-      213: 252250816944055735
-    second: DoorAnimation_1
+      213: 6384084628933702635
+    second: Tree1VDistant_1
   - first:
-      213: 3729288272938489453
-    second: DoorAnimation_2
+      213: 8254790710354178630
+    second: Tree1VDistant_2
   - first:
-      213: 4915294661423165508
-    second: DoorAnimation_3
+      213: 8362969584191860420
+    second: Tree1VDistant_3
   - first:
-      213: 2940891611503048423
-    second: DoorAnimation_4
+      213: -7259428999307239807
+    second: Tree1VDistant_4
   - first:
-      213: 7918083253994132069
-    second: DoorAnimation_5
+      213: 4615488322054140727
+    second: Tree1VDistant_5
   - first:
-      213: 1856715232732810698
-    second: DoorAnimation_6
+      213: 8839681883341476717
+    second: Tree1VDistant_6
   - first:
-      213: -1922792969921878726
-    second: DoorAnimation_7
+      213: -3386483324134613456
+    second: Tree1VDistant_7
   - first:
-      213: -6179688563918454828
-    second: DoorAnimation_8
+      213: -4843367140779046830
+    second: Tree1VDistant_8
   - first:
-      213: 6083536839041017368
-    second: DoorAnimation_9
+      213: 4380883483396129136
+    second: Tree1VDistant_9
   - first:
-      213: 7140787254076401835
-    second: DoorAnimation_10
+      213: 1566096677891815171
+    second: Tree1VDistant_10
   - first:
-      213: 2163798247442829035
-    second: DoorAnimation_11
+      213: 3545694343295320881
+    second: Tree1VDistant_11
   - first:
-      213: 3535206810554754653
-    second: DoorAnimation_12
+      213: -7017946812478176370
+    second: Tree1VDistant_12
   - first:
-      213: 4863349101926664544
-    second: DoorAnimation_13
+      213: 8510793182691577694
+    second: Tree1VDistant_13
   - first:
-      213: -1420527100439711526
-    second: DoorAnimation_14
+      213: 8384646281277050638
+    second: Tree1VDistant_14
   - first:
-      213: 967442426634299779
-    second: DoorAnimation_15
+      213: 6370144981695899009
+    second: Tree1VDistant_15
   - first:
-      213: -7743276314084447917
-    second: DoorAnimation_16
+      213: 2090462087878083670
+    second: Tree1VDistant_16
   - first:
-      213: -6755648459107359215
-    second: DoorAnimation_17
+      213: -5251102239859780291
+    second: Tree1VDistant_17
   - first:
-      213: 4361180114922406603
-    second: DoorAnimation_18
+      213: -8835466397357137795
+    second: Tree1VDistant_18
   - first:
-      213: 9046427678827807195
-    second: DoorAnimation_19
+      213: -4101142674316199943
+    second: Tree1VDistant_19
   - first:
-      213: 5865582646302709636
-    second: DoorAnimation_20
+      213: 3292450226061209809
+    second: Tree1VDistant_20
   - first:
-      213: 7658306764555811820
-    second: DoorAnimation_21
+      213: -1502344701531936665
+    second: Tree1VDistant_21
   - first:
-      213: -3490706621546353697
-    second: DoorAnimation_22
+      213: -8403865344203920709
+    second: Tree1VDistant_22
   - first:
-      213: -1542242571545654895
-    second: DoorAnimation_23
+      213: 7230035894439063143
+    second: Tree1VDistant_23
   - first:
-      213: -1543837270963541739
-    second: DoorAnimation_24
+      213: 4389406373365548822
+    second: Tree1VDistant_24
   - first:
-      213: 3210113205206337688
-    second: DoorAnimation_25
+      213: 1012219418390472509
+    second: Tree1VDistant_25
   - first:
-      213: -1237833060888511668
-    second: DoorAnimation_26
+      213: 2144016785067696258
+    second: Tree1VDistant_26
   - first:
-      213: -7672572887449004513
-    second: DoorAnimation_27
+      213: -7063510095821169191
+    second: Tree1VDistant_27
   - first:
-      213: 3990459459384985210
-    second: DoorAnimation_28
+      213: 762120635507753
+    second: Tree1VDistant_28
   - first:
-      213: 4316586124859855267
-    second: DoorAnimation_29
+      213: 3418951841465139060
+    second: Tree1VDistant_29
   - first:
-      213: 7285788909468823950
-    second: DoorAnimation_30
+      213: -4774547341101046473
+    second: Tree1VDistant_30
   - first:
-      213: -6568967937896221015
-    second: DoorAnimation_31
+      213: -5223944841013629280
+    second: Tree1VDistant_31
   - first:
-      213: 5400426431027887215
-    second: DoorAnimation_32
+      213: -895795341015927211
+    second: Tree1VDistant_32
   - first:
-      213: 3056237488465902334
-    second: DoorAnimation_33
+      213: -3744177532680715027
+    second: Tree1VDistant_33
   - first:
-      213: -4133601459007447844
-    second: DoorAnimation_34
+      213: 6994499624120108338
+    second: Tree1VDistant_34
+  - first:
+      213: 679145485373225401
+    second: Tree1VDistant_35
+  - first:
+      213: 1648240173061054418
+    second: Tree1VDistant_36
+  - first:
+      213: -8695677096203070038
+    second: Tree1VDistant_37
+  - first:
+      213: -2841538260638063582
+    second: Tree1VDistant_38
+  - first:
+      213: -7947682659861387976
+    second: Tree1VDistant_39
+  - first:
+      213: 127109311088948006
+    second: Tree1VDistant_40
+  - first:
+      213: 43860055593672302
+    second: Tree1VDistant_41
+  - first:
+      213: 2688132538286181519
+    second: Tree1VDistant_42
+  - first:
+      213: -1416091487725615501
+    second: Tree1VDistant_43
+  - first:
+      213: -1358628701613546335
+    second: Tree1VDistant_44
+  - first:
+      213: -3859117316657793307
+    second: Tree1VDistant_45
+  - first:
+      213: 3878576613967480515
+    second: Tree1VDistant_46
+  - first:
+      213: 1795145352700660616
+    second: Tree1VDistant_47
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -166,10 +205,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -178,10 +217,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -190,10 +229,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -202,10 +241,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -214,10 +253,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -228,12 +267,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DoorAnimation_0
+      name: Tree1VDistant_0
       rect:
         serializedVersion: 2
-        x: 38
+        x: 0
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -242,19 +281,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5829363ea7cf4ac70800000000000000
-      internalID: 8981581161614774917
+      spriteID: bd752195b2e5b52f0800000000000000
+      internalID: -983088553379342373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_1
+      name: Tree1VDistant_1
       rect:
         serializedVersion: 2
-        x: 76
+        x: 32
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -263,19 +302,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b5a04218cc208300800000000000000
-      internalID: 252250816944055735
+      spriteID: be3ff9b4523d89850800000000000000
+      internalID: 6384084628933702635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_2
+      name: Tree1VDistant_2
       rect:
         serializedVersion: 2
-        x: 114
+        x: 64
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -284,19 +323,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d665785fce711c330800000000000000
-      internalID: 3729288272938489453
+      spriteID: 642fad15a68ee8270800000000000000
+      internalID: 8254790710354178630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_3
+      name: Tree1VDistant_3
       rect:
         serializedVersion: 2
-        x: 152
+        x: 96
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -305,19 +344,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4407084c372a63440800000000000000
-      internalID: 4915294661423165508
+      spriteID: 4cee625278c3f0470800000000000000
+      internalID: 8362969584191860420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_4
+      name: Tree1VDistant_4
       rect:
         serializedVersion: 2
-        x: 190
+        x: 128
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -326,19 +365,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e6b092d65520d820800000000000000
-      internalID: 2940891611503048423
+      spriteID: 18e5f1889c3514b90800000000000000
+      internalID: -7259428999307239807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_5
+      name: Tree1VDistant_5
       rect:
         serializedVersion: 2
-        x: 228
+        x: 160
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -347,19 +386,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5621a4884cea2ed60800000000000000
-      internalID: 7918083253994132069
+      spriteID: 733300dcc228d0040800000000000000
+      internalID: 4615488322054140727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_6
+      name: Tree1VDistant_6
       rect:
         serializedVersion: 2
-        x: 266
+        x: 192
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -368,19 +407,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acd8818baa064c910800000000000000
-      internalID: 1856715232732810698
+      spriteID: d63560896dbdcaa70800000000000000
+      internalID: 8839681883341476717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_7
+      name: Tree1VDistant_7
       rect:
         serializedVersion: 2
-        x: 304
+        x: 224
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -389,19 +428,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3520333bfdd055e0800000000000000
-      internalID: -1922792969921878726
+      spriteID: 03e1c2beb5bc001d0800000000000000
+      internalID: -3386483324134613456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_8
+      name: Tree1VDistant_8
       rect:
         serializedVersion: 2
-        x: 342
+        x: 256
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -410,19 +449,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dfb8151ef55d3aa0800000000000000
-      internalID: -6179688563918454828
+      spriteID: 258c0192f37e8ccb0800000000000000
+      internalID: -4843367140779046830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_9
+      name: Tree1VDistant_9
       rect:
         serializedVersion: 2
-        x: 380
+        x: 288
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -431,19 +470,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 816ea0de5801d6450800000000000000
-      internalID: 6083536839041017368
+      spriteID: 071c33631560ccc30800000000000000
+      internalID: 4380883483396129136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_10
+      name: Tree1VDistant_10
       rect:
         serializedVersion: 2
-        x: 418
+        x: 320
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -452,19 +491,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba86cdf8c2c291360800000000000000
-      internalID: 7140787254076401835
+      spriteID: 30739a981a4ebb510800000000000000
+      internalID: 1566096677891815171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_11
+      name: Tree1VDistant_11
       rect:
         serializedVersion: 2
-        x: 456
+        x: 352
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -473,19 +512,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bee4170ba0b570e10800000000000000
-      internalID: 2163798247442829035
+      spriteID: 133ca362836d43130800000000000000
+      internalID: 3545694343295320881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_12
+      name: Tree1VDistant_12
       rect:
         serializedVersion: 2
-        x: 494
+        x: 384
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -494,19 +533,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5668a62dd39f0130800000000000000
-      internalID: 3535206810554754653
+      spriteID: e8347a58e8e3b9e90800000000000000
+      internalID: -7017946812478176370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_13
+      name: Tree1VDistant_13
       rect:
         serializedVersion: 2
-        x: 532
+        x: 416
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -515,19 +554,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 069cd07bd361e7340800000000000000
-      internalID: 4863349101926664544
+      spriteID: e5fc52bbe496c1670800000000000000
+      internalID: 8510793182691577694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_14
+      name: Tree1VDistant_14
       rect:
         serializedVersion: 2
-        x: 570
+        x: 448
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -536,19 +575,103 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad0b970e026494ce0800000000000000
-      internalID: -1420527100439711526
+      spriteID: e0f81da7e5f3c5470800000000000000
+      internalID: 8384646281277050638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_15
+      name: Tree1VDistant_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185a8b14c1d476850800000000000000
+      internalID: 6370144981695899009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65405647130d20d10800000000000000
+      internalID: 2090462087878083670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3556e995565027b0800000000000000
+      internalID: -5251102239859780291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70a0a8bf1e126580800000000000000
+      internalID: -8835466397357137795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_19
       rect:
         serializedVersion: 2
         x: 608
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -557,19 +680,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 389ed24e2cb0d6d00800000000000000
-      internalID: 967442426634299779
+      spriteID: 9f7ff2c6770d517c0800000000000000
+      internalID: -4101142674316199943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_16
+      name: Tree1VDistant_20
       rect:
         serializedVersion: 2
-        x: 646
+        x: 640
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -578,19 +701,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 359ec4dc73b5a8490800000000000000
-      internalID: -7743276314084447917
+      spriteID: 1d07805590221bd20800000000000000
+      internalID: 3292450226061209809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_17
+      name: Tree1VDistant_21
       rect:
         serializedVersion: 2
-        x: 684
+        x: 672
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -599,19 +722,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 116ad77f48d1f32a0800000000000000
-      internalID: -6755648459107359215
+      spriteID: 768aff62479962be0800000000000000
+      internalID: -1502344701531936665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_18
+      name: Tree1VDistant_22
       rect:
         serializedVersion: 2
-        x: 722
+        x: 704
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -620,19 +743,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc2827f3536068c30800000000000000
-      internalID: 4361180114922406603
+      spriteID: bba628abef87f5b80800000000000000
+      internalID: -8403865344203920709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_19
+      name: Tree1VDistant_23
       rect:
         serializedVersion: 2
-        x: 760
+        x: 736
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -641,19 +764,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd10bca3b0e5b8d70800000000000000
-      internalID: 9046427678827807195
+      spriteID: 76e2d51f65f365460800000000000000
+      internalID: 7230035894439063143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_20
+      name: Tree1VDistant_24
       rect:
         serializedVersion: 2
-        x: 798
+        x: 768
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -662,19 +785,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4879191f65cb66150800000000000000
-      internalID: 5865582646302709636
+      spriteID: 6170a4b27dd4aec30800000000000000
+      internalID: 4389406373365548822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_21
+      name: Tree1VDistant_25
       rect:
         serializedVersion: 2
-        x: 836
+        x: 800
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -683,19 +806,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cebf15a4d65c74a60800000000000000
-      internalID: 7658306764555811820
+      spriteID: d37aae3b2302c0e00800000000000000
+      internalID: 1012219418390472509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_22
+      name: Tree1VDistant_26
       rect:
         serializedVersion: 2
-        x: 874
+        x: 832
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -704,19 +827,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdb20af72d48e8fc0800000000000000
-      internalID: -3490706621546353697
+      spriteID: 2806f6218e311cd10800000000000000
+      internalID: 2144016785067696258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_23
+      name: Tree1VDistant_27
       rect:
         serializedVersion: 2
-        x: 912
+        x: 864
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -725,19 +848,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19949856d8ad89ae0800000000000000
-      internalID: -1542242571545654895
+      spriteID: 9dd913fedfe59fd90800000000000000
+      internalID: -7063510095821169191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_24
+      name: Tree1VDistant_28
       rect:
         serializedVersion: 2
-        x: 950
+        x: 896
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -746,19 +869,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 519a5318e20339ae0800000000000000
-      internalID: -1543837270963541739
+      spriteID: 92461c90525b20000800000000000000
+      internalID: 762120635507753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_25
+      name: Tree1VDistant_29
       rect:
         serializedVersion: 2
-        x: 988
+        x: 928
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -767,19 +890,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8984d15c3fc9c8c20800000000000000
-      internalID: 3210113205206337688
+      spriteID: 47f72bed59e827f20800000000000000
+      internalID: 3418951841465139060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_26
+      name: Tree1VDistant_30
       rect:
         serializedVersion: 2
-        x: 1026
+        x: 960
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -788,19 +911,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4b7182b36552dee0800000000000000
-      internalID: -1237833060888511668
+      spriteID: 735e26a6d766dbdb0800000000000000
+      internalID: -4774547341101046473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_27
+      name: Tree1VDistant_31
       rect:
         serializedVersion: 2
-        x: 1064
+        x: 992
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -809,19 +932,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f161f422c9b858590800000000000000
-      internalID: -7672572887449004513
+      spriteID: 0aee52148d1d087b0800000000000000
+      internalID: -5223944841013629280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_28
+      name: Tree1VDistant_32
       rect:
         serializedVersion: 2
-        x: 1102
+        x: 1024
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -830,19 +953,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a764d376cb5f06730800000000000000
-      internalID: 3990459459384985210
+      spriteID: 556bb4b22ee7193f0800000000000000
+      internalID: -895795341015927211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_29
+      name: Tree1VDistant_33
       rect:
         serializedVersion: 2
-        x: 1140
+        x: 1056
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -851,19 +974,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a1d6a6d53897eb30800000000000000
-      internalID: 4316586124859855267
+      spriteID: de4419c1f520a0cc0800000000000000
+      internalID: -3744177532680715027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_30
+      name: Tree1VDistant_34
       rect:
         serializedVersion: 2
-        x: 1178
+        x: 1088
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -872,19 +995,82 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e81be5159625c1560800000000000000
-      internalID: 7285788909468823950
+      spriteID: 23548458954711160800000000000000
+      internalID: 6994499624120108338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_31
+      name: Tree1VDistant_35
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b93b7e783fcc6900800000000000000
+      internalID: 679145485373225401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_36
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df15d364b9bfd610800000000000000
+      internalID: 1648240173061054418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_37
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5d05fa0cfb25780800000000000000
+      internalID: -8695677096203070038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_38
       rect:
         serializedVersion: 2
         x: 1216
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -893,19 +1079,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a6f3c0e67656d4a0800000000000000
-      internalID: -6568967937896221015
+      spriteID: 224acfec104d098d0800000000000000
+      internalID: -2841538260638063582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_32
+      name: Tree1VDistant_39
       rect:
         serializedVersion: 2
-        x: 1254
+        x: 1248
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -914,19 +1100,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6c3c01f93b22fa40800000000000000
-      internalID: 5400426431027887215
+      spriteID: 8352e6fbab824b190800000000000000
+      internalID: -7947682659861387976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_33
+      name: Tree1VDistant_40
       rect:
         serializedVersion: 2
-        x: 1292
+        x: 1280
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -935,19 +1121,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efafd399dcfe96a20800000000000000
-      internalID: 3056237488465902334
+      spriteID: 623f917be3593c100800000000000000
+      internalID: 127109311088948006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAnimation_34
+      name: Tree1VDistant_41
       rect:
         serializedVersion: 2
-        x: 1330
+        x: 1312
         y: 0
-        width: 38
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -956,8 +1142,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdc13d0bf5f72a6c0800000000000000
-      internalID: -4133601459007447844
+      spriteID: e6e5d79fc72db9000800000000000000
+      internalID: 43860055593672302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_42
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c87bd1d4a2e4520800000000000000
+      internalID: 2688132538286181519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_43
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37609a07b48095ce0800000000000000
+      internalID: -1416091487725615501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_44
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4acaae46e252de0800000000000000
+      internalID: -1358628701613546335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_45
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6bd0a3f39a17ac0800000000000000
+      internalID: -3859117316657793307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_46
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c64bad71e873d530800000000000000
+      internalID: 3878576613967480515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1VDistant_47
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b8aebef23a9e810800000000000000
+      internalID: 1795145352700660616
       vertices: []
       indices: 
       edges: []
@@ -965,7 +1277,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f36ee3d8425f3ab4081b181f4a0f8a4e
+    spriteID: 9464aecea5953c74e8443db7483f515c
     internalID: 0
     vertices: []
     indices: 
