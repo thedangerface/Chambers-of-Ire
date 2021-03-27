@@ -33,10 +33,9 @@ public class Controller2D : RaycastController
 		{
 			DescendSlope(ref velocity);
 		}
-		if (velocity.x != 0)
-		{
-			HorizontalCollisions(ref velocity);
-		}
+
+		HorizontalCollisions(ref velocity);
+        
 		if (velocity.y != 0)
 		{
 			VerticalCollisions(ref velocity);

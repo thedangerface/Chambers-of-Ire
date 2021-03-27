@@ -718,6 +718,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
+        type: 3}
+      propertyPath: wallLeap.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
+        type: 3}
+      propertyPath: wallLeap.y
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
+        type: 3}
+      propertyPath: wallJumpOff.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
+        type: 3}
+      propertyPath: wallJumpOff.y
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
+        type: 3}
+      propertyPath: wallJumpClimb.x
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
+        type: 3}
+      propertyPath: wallJumpClimb.y
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11605b6ef7b2cd641b0906cb442dafed, type: 3}
 --- !u!1 &1617361661
