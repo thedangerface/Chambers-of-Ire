@@ -1,16 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
 [RequireComponent(typeof(BoxCollider2D))]
 public class RaycastController : MonoBehaviour
 {
+
     public LayerMask collisionMask;
 
     public const float skinWidth = .015f;
-    const float distanceBetweeenRays = .25f;
-    public int horizontalRayCount = 4;
-    public int verticalRayCount = 4;
+    const float dstBetweenRays = .25f;
+    [HideInInspector]
+    public int horizontalRayCount;
+    [HideInInspector]
+    public int verticalRayCount;
 
     [HideInInspector]
     public float horizontalRaySpacing;
@@ -19,22 +21,21 @@ public class RaycastController : MonoBehaviour
 
     [HideInInspector]
     public BoxCollider2D collider;
-    [HideInInspector]
     public RaycastOrigins raycastOrigins;
 
     public virtual void Awake()
     {
         collider = GetComponent<BoxCollider2D>();
     }
+
     public virtual void Start()
     {
         CalculateRaySpacing();
     }
 
-    // Update is called once per frame
     public void UpdateRaycastOrigins()
     {
-        Bounds bounds = _collider2D.bounds;
+        Bounds bounds = collider.bounds;
         bounds.Expand(skinWidth * -2);
 
         raycastOrigins.bottomLeft = new Vector2(bounds.min.x, bounds.min.y);

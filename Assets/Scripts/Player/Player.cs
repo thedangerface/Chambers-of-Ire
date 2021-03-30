@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float maxJumpHeight = 4;
-    public float jumpHeight = 4;
+    public float minJumpHeight = 1;
     public float timeToJumpApex = .4f;
     float accelerationTimeAirborne = .2f;
     float accelerationTimeGrounded = .1f;
@@ -40,9 +40,9 @@ public class Player : MonoBehaviour
 
         playerAnimationManager = GetComponent<PlayerAnimationManager>();
 
-        gravity = -(2 * jumpHeight) / Mathf.Pow(timeToJumpApex, 2);
-        jumpVelocity = Mathf.Abs(gravity * timeToJumpApex);
-        print("Gravity: " + gravity + " Jump Velocity: " + jumpVelocity);
+        gravity = -(2 * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2);
+        maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
+        minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(gravity) * minJumpHeight);
     }
 
     void Update()
@@ -112,6 +112,7 @@ public class Player : MonoBehaviour
             }
         }
     }
+
     public void OnJumpInputUp()
     {
         if (velocity.y > minJumpVelocity)
@@ -119,6 +120,7 @@ public class Player : MonoBehaviour
             velocity.y = minJumpVelocity;
         }
     }
+
 
     void HandleWallSliding()
     {
