@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
 
     Vector2 directionalInput;
     bool wallSliding;
-    int wallDirextionX;
+    int wallDirectionX;
 
     PlayerAnimationManager playerAnimationManager;
 
@@ -80,19 +80,19 @@ public class Player : MonoBehaviour
     {
         if (wallSliding)
         {
-            if (wallDirX == directionalInput.x)
+            if (wallDirectionX == directionalInput.x)
             {
-                velocity.x = -wallDirX * wallJumpClimb.x;
+                velocity.x = -wallDirectionX * wallJumpClimb.x;
                 velocity.y = wallJumpClimb.y;
             }
             else if (directionalInput.x == 0)
             {
-                velocity.x = -wallDirX * wallJumpOff.x;
+                velocity.x = -wallDirectionX * wallJumpOff.x;
                 velocity.y = wallJumpOff.y;
             }
             else
             {
-                velocity.x = -wallDirX * wallLeap.x;
+                velocity.x = -wallDirectionX * wallLeap.x;
                 velocity.y = wallLeap.y;
             }
         }
@@ -122,7 +122,7 @@ public class Player : MonoBehaviour
 
     void HandleWallSliding()
     {
-        wallDirX = (controller.collisions.left) ? -1 : 1;
+        wallDirectionX = (controller.collisions.left) ? -1 : 1;
         wallSliding = false;
         if ((controller.collisions.left || controller.collisions.right) && !controller.collisions.below && velocity.y < 0)
         {
@@ -138,7 +138,7 @@ public class Player : MonoBehaviour
                 velocityXSmoothing = 0;
                 velocity.x = 0;
 
-                if (directionalInput.x != wallDirX && directionalInput.x != 0)
+                if (directionalInput.x != wallDirectionX && directionalInput.x != 0)
                 {
                     timeToWallUnstick -= Time.deltaTime;
                 }
