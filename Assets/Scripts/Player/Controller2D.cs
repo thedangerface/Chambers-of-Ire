@@ -5,7 +5,7 @@ using System.Collections;
 
 public class Controller2D : RaycastController
 {
-    float maxSlopeAngle = 80;
+    float maxSlopeAngle = 80f;
 
     public CollisionInfo collisions;
     [HideInInspector]
