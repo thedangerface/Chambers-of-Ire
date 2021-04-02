@@ -439,6 +439,7 @@ GameObject:
   - component: {fileID: 1678090707587875610}
   - component: {fileID: 3775917067639741553}
   - component: {fileID: 540773570}
+  - component: {fileID: 607845451}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -525,7 +526,7 @@ SpriteRenderer:
   m_SortingLayerID: 1694182613
   m_SortingLayer: 1
   m_SortingOrder: 3
-  m_Sprite: {fileID: -2818875442926829101, guid: 9ee304cdec2fa464a82fb6bcf9f2af31,
+  m_Sprite: {fileID: -5245602006594329872, guid: e39a8d9d6affd934c832404a9c8678cd,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -593,7 +594,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.040976997, y: -0.041706055}
+  m_Offset: {x: 0.042522967, y: -0.041706055}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -604,7 +605,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.123277135, y: 0.25044483}
+  m_Size: {x: 0.15415114, y: 0.25}
   m_EdgeRadius: 0
 --- !u!114 &1678090707587875610
 MonoBehaviour:
@@ -625,7 +626,8 @@ MonoBehaviour:
   verticalRayCount: 4
   horizontalRaySpacing: 0
   verticalRaySpacing: 0
-  _collider2D: {fileID: 0}
+  collider: {fileID: 0}
+  playerInput: {x: 0, y: 0}
 --- !u!114 &3775917067639741553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -638,14 +640,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c79edfda522b3a4daad6f0ce75002c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpHeight: 2.5
-  timeToJumpApex: 0.5
-  moveSpeed: 4.5
-  wallJumpClimb: {x: 2, y: 8}
-  wallJumpOff: {x: 5, y: 7}
-  wallLeap: {x: 7, y: 11}
+  moveSpeed: 4
+  maxJumpHeight: 3.25
+  minJumpHeight: 0.5
+  timeToJumpApex: 0.4
+  wallJumpClimb: {x: 2, y: 10}
+  wallJumpOff: {x: 3, y: 6}
+  wallLeap: {x: 5, y: 14}
   wallSlideSpeedMax: 3
-  wallStickTime: 1
+  wallStickTime: 0.25
+  canMove: 1
+  canJump: 1
+  canWallJump: 1
+  canDoubleJump: 1
+  canAttack: 1
 --- !u!114 &540773570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -660,6 +668,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 8
   healthMax: 8
+--- !u!114 &607845451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398852373662809221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c65bb60d8f14c889c7a5226106de00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &398852373867055202
 GameObject:
   m_ObjectHideFlags: 0
