@@ -23,15 +23,15 @@ public class PlayerInput : MonoBehaviour
             player.OnRunInputUp();
 
         // Jump
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space))
             player.OnJumpInputDown();
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetKeyUp(KeyCode.Space))
             player.OnJumpInputUp();
         
         // Attack
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetMouseButtonDown(0))
             player.OnAttackInputDown();
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetMouseButtonUp(0))
             player.OnAttackInputUp();
     }
 }
