@@ -847,7 +847,7 @@ PrefabInstance:
     - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
         type: 3}
       propertyPath: wallStickTime
-      value: 0.5
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
         type: 3}
