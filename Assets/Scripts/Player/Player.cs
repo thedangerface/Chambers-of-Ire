@@ -10,8 +10,8 @@ public class Player : MonoBehaviour
     public float moveSpeed = 4f;
 
     // Jump
-    public float maxJumpHeight = 3f;
-    public float minJumpHeight = 0.75f;
+    public float maxJumpHeight = 3.25f;
+    public float minJumpHeight = 0.5f;
     public float timeToJumpApex = .4f;
     float accelerationTimeAirborne = .2f;
     float accelerationTimeGrounded = .1f;
@@ -57,7 +57,8 @@ public class Player : MonoBehaviour
 
         gravity = -(2 * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2);
         maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
-        minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(gravity) * minJumpHeight);
+        // minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(gravity) * minJumpHeight);
+        minJumpVelocity = Mathf.Sqrt(Mathf.Abs(gravity) * minJumpHeight) * -0.75f;
     }
 
     void Update()
