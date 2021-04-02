@@ -4,15 +4,22 @@ using UnityEngine;
 [RequireComponent(typeof(Controller2D))]
 public class Player : MonoBehaviour
 {
-    public float maxJumpHeight = 4;
-    public float minJumpHeight = 1;
-    public float timeToJumpApex = .4f;
-    float accelerationTimeAirborne = .2f;
-    float accelerationTimeGrounded = .1f;
-
+    // MoveSpeed
     float baseMoveSpeed;
     float runSpeedIncrease = 1.75f;
     public float moveSpeed = 4f;
+
+    // Jump
+    public float maxJumpHeight = 3f;
+    public float minJumpHeight = 0.75f;
+    public float timeToJumpApex = .4f;
+    float accelerationTimeAirborne = .2f;
+    float accelerationTimeGrounded = .1f;
+    float maxJumpVelocity;
+    float minJumpVelocity;
+    float jumpVelocity;
+    int jumps = 0;
+    int maxJumps = 2;
 
     // Wall Jump
     public Vector2 wallJumpClimb;
@@ -21,19 +28,14 @@ public class Player : MonoBehaviour
     public float wallSlideSpeedMax = 3;
     public float wallStickTime = 1f;
     float timeToWallUnstick;
-
-    float gravity;
-    float maxJumpVelocity;
-    float minJumpVelocity;
-    float jumpVelocity;
-    Vector3 velocity;
-    float velocityXSmoothing;
-
-    Controller2D controller;
-
-    Vector2 directionalInput;
     bool wallSliding;
     int wallDirectionX;
+
+    float gravity;
+    
+    Vector3 velocity;
+    float velocityXSmoothing;
+    Vector2 directionalInput;
 
     [Header("Abilities")]
     public bool canMove = true;
@@ -42,6 +44,7 @@ public class Player : MonoBehaviour
     public bool canDoubleJump = true;
     public bool canAttack = true;
 
+    Controller2D controller;
     PlayerAnimationManager playerAnimationManager;
 
     void Start()
@@ -76,6 +79,9 @@ public class Player : MonoBehaviour
                 velocity.y = 0;
             }
         }
+
+        if (controller.collisions.below && jumps != 0)
+            jumps = 0;
     }
 
     public void OnAttackInputDown()
@@ -117,8 +123,9 @@ public class Player : MonoBehaviour
                     velocity.y = wallLeap.y;
                 }
             }
-            if (controller.collisions.below)
+            else if (controller.collisions.below)
             {
+                jumps++;
                 if (controller.collisions.slidingDownMaxSlope)
                 {
                     if (directionalInput.x != -Mathf.Sign(controller.collisions.slopeNormal.x))
@@ -131,6 +138,11 @@ public class Player : MonoBehaviour
                 {
                     velocity.y = maxJumpVelocity;
                 }
+            }
+            else if(canDoubleJump && jumps < maxJumps)
+            {
+                jumps++;
+                velocity.y = maxJumpVelocity;
             }
         }
     }

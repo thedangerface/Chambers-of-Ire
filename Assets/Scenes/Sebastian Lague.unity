@@ -821,6 +821,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
         type: 3}
+      propertyPath: maxJumpHeight
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
+        type: 3}
+      propertyPath: minJumpHeight
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
+        type: 3}
       propertyPath: wallJumpOff.x
       value: 3
       objectReference: {fileID: 0}
