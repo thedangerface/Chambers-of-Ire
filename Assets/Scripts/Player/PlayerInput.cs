@@ -17,21 +17,21 @@ public class PlayerInput : MonoBehaviour
         player.SetDirectionalInput(directionalInput);
 
         // Run
-        if(Input.GetMouseButtonDown(1))
+        if(Input.GetKeyDown(KeyCode.Period))
             player.OnRunInputDown();
-        if(Input.GetMouseButtonUp(1))
+        if(Input.GetKeyUp(KeyCode.Period))
             player.OnRunInputUp();
 
         // Jump
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Slash))
             player.OnJumpInputDown();
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Slash))
             player.OnJumpInputUp();
         
         // Attack
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Quote))
             player.OnAttackInputDown();
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetKeyUp(KeyCode.Quote))
             player.OnAttackInputUp();
     }
 }

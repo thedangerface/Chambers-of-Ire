@@ -738,7 +738,7 @@ PrefabInstance:
     - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
         type: 3}
       propertyPath: wallLeap.y
-      value: 12
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
         type: 3}
@@ -748,7 +748,7 @@ PrefabInstance:
     - target: {fileID: 3775917067639741553, guid: 11605b6ef7b2cd641b0906cb442dafed,
         type: 3}
       propertyPath: wallJumpClimb.y
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11605b6ef7b2cd641b0906cb442dafed, type: 3}
