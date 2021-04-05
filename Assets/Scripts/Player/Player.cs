@@ -57,8 +57,7 @@ public class Player : MonoBehaviour
 
         gravity = -(2 * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2);
         maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
-        // minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(gravity) * minJumpHeight);
-        minJumpVelocity = Mathf.Sqrt(Mathf.Abs(gravity) * minJumpHeight) * -0.75f;
+        minJumpVelocity = Mathf.Sqrt(Mathf.Abs(gravity) * minJumpHeight) * 0.75f;
     }
 
     void Update()
@@ -143,7 +142,7 @@ public class Player : MonoBehaviour
             else if(canDoubleJump && jumps < maxJumps)
             {
                 jumps++;
-                velocity.y = maxJumpVelocity;
+                velocity.y = maxJumpVelocity * 0.80f;
             }
         }
     }
