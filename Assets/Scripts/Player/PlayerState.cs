@@ -19,14 +19,14 @@ public class PlayerState : MonoBehaviour
     public State currentState;
     private float lastStateChange = 0.0f;
 
-    void SetCurrentState(playerState state)
+    public void Set(State state)
     {
         currentState = state;
         lastStateChange = Time.time;
     }
     void Start()
     {
-        setCurrentState(State.idle);
+        Set(State.idle);
     }
 
     // TODO: 
