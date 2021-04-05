@@ -6,7 +6,7 @@ public class PlayerAnimationManager : MonoBehaviour
 {
     [SerializeField] GameObject runAttack, attack1, attack2, attack3, attack4, superAttack, hitbox;
     [SerializeField] float timescale = 1;
-    public enum State { idle, running, jumping, falling, damaged, landing, runningAttack, attacking }
+    public enum State { idle, running, jumping, falling, damaged, landing, runningAttack, attacking, wallSliding, wallJump }
     public State animationState;
     public StateInfo stateInfo;
     [SerializeField] Animator animator;
@@ -143,7 +143,6 @@ public class PlayerAnimationManager : MonoBehaviour
         // are we damaged?
         if (stateInfo.damaged)
         {
-            // state = damaged
             animationState = State.damaged;
         }
 
@@ -266,8 +265,6 @@ public class PlayerAnimationManager : MonoBehaviour
         public bool attacking;
         public bool attackingOld;
         public Vector2 velocity;
-        //public State state;
-        //public State stateOld;
         public bool facingRight;
         public bool facingRightOld;
     }
