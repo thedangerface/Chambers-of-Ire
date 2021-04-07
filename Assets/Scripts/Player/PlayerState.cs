@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerState : MonoBehaviour
@@ -16,17 +17,46 @@ public class PlayerState : MonoBehaviour
         wallJump,
         facingRight
     }
-    public State currentState;
+
+    public Dictionary<State, bool> activeStates = new Dictionary<State, bool> ();
+
     private float lastStateChange = 0.0f;
 
-    public void Set(State state)
+    void Awake()
     {
-        currentState = state;
+        PopulateStateDict();
+    }
+
+    public void Set(State state, bool setActive)
+    {
+        activeStates[state] = setActive;
         lastStateChange = Time.time;
     }
+
     void Start()
     {
-        Set(State.idle);
+        Set(State.idle, true);
+
+        foreach (KeyValuePair<State, bool> entry in activeStates)
+        {
+            Debug.Log(entry);
+        }
+    }
+
+    private void PopulateStateDict() 
+    {
+        foreach (State state in System.Enum.GetValues(typeof(State)))  
+        {  
+            activeStates.Add(state, false);
+        }  
+    }
+
+    public void ResetAllStates()
+    {
+        foreach (State state in System.Enum.GetValues(typeof(State)))  
+        {  
+            activeStates[state] = false;
+        }
     }
 
     // TODO: 
