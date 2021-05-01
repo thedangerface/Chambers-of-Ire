@@ -21,6 +21,9 @@ public class Player : MonoBehaviour
   int jumps = 0;
   int maxJumps = 2;
 
+  // Attack
+  public GameObject attackHitBox;
+
   // Wall Jump
   // public Vector2 wallJumpClimb;
   // public Vector2 wallJumpOff;
@@ -48,15 +51,13 @@ public class Player : MonoBehaviour
   PlayerAnimationManager playerAnimationManager;
 
   private PlayerData playerData;
-  private PlayerDisplay playerDisplay;
+  public PlayerDisplay playerDisplay;
 
   void Start()
   {
     controller = GetComponent<Controller2D>();
     playerAnimationManager = GetComponent<PlayerAnimationManager>();
     playerData = GetComponent<PlayerData>();
-    playerDisplay = GetComponent<PlayerDisplay>();
-
 
     baseMoveSpeed = moveSpeed;
 
@@ -94,7 +95,7 @@ public class Player : MonoBehaviour
     if (canAttack)
     {
       playerAnimationManager.stateInfo.attacking = true;
-      StartCoroutine(StopAttackAnimation());
+      StartCoroutine(AttackRoutine());
     }
   }
 
@@ -103,10 +104,14 @@ public class Player : MonoBehaviour
 
   }
 
-  private IEnumerator StopAttackAnimation()
+  private IEnumerator AttackRoutine()
   {
-    yield return new WaitForSeconds(0.3f);
+    yield return new WaitForSeconds(0.2f);
+    attackHitBox.SetActive(true);
+    yield return new WaitForSeconds(0.1f);
     playerAnimationManager.stateInfo.attacking = false;
+    yield return new WaitForSeconds(0.1f);
+    attackHitBox.SetActive(false);
   }
 
   public void SetDirectionalInput(Vector2 input)
@@ -179,7 +184,6 @@ public class Player : MonoBehaviour
     moveSpeed = baseMoveSpeed;
   }
 
-
   // void HandleWallSliding()
   // {
   //   wallDirectionX = (controller.collisions.left) ? -1 : 1;
@@ -216,14 +220,15 @@ public class Player : MonoBehaviour
 
   // }
 
-  public void TakeDamage(int damageAmount)
+  public void AdjustHealth(int amount)
   {
-    playerData.health -= damageAmount;
+    playerData.health += amount;
     if (playerData.health <= 0)
     {
       playerData.health = 0;
       Die();
     }
+
     playerDisplay.SetHearts();
   }
 
@@ -234,6 +239,26 @@ public class Player : MonoBehaviour
     canWallJump = false;
     canDoubleJump = false;
     canAttack = false;
+    playerAnimationManager.ToggleDeath(true);
+    StartCoroutine(ReviveRoutine());
+  }
+
+  IEnumerator ReviveRoutine()
+  {
+    yield return new WaitForSeconds(5);
+    Revive();
+  }
+
+  public void Revive()
+  {
+    canMove = true;
+    canJump = true;
+    canWallJump = false;
+    canDoubleJump = true;
+    canAttack = true;
+    LevelManager.instance.ResetPlayer();
+    playerAnimationManager.ToggleDeath(false);
+    AdjustHealth(8);
   }
 
   void CalculateVelocity()
