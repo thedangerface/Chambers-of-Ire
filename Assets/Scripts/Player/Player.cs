@@ -47,11 +47,16 @@ public class Player : MonoBehaviour
   Controller2D controller;
   PlayerAnimationManager playerAnimationManager;
 
+  private PlayerData playerData;
+  private PlayerDisplay playerDisplay;
+
   void Start()
   {
     controller = GetComponent<Controller2D>();
-
     playerAnimationManager = GetComponent<PlayerAnimationManager>();
+    playerData = GetComponent<PlayerData>();
+    playerDisplay = GetComponent<PlayerDisplay>();
+
 
     baseMoveSpeed = moveSpeed;
 
@@ -87,13 +92,21 @@ public class Player : MonoBehaviour
   public void OnAttackInputDown()
   {
     if (canAttack)
+    {
       playerAnimationManager.stateInfo.attacking = true;
+      StartCoroutine(StopAttackAnimation());
+    }
   }
 
   public void OnAttackInputUp()
   {
-    if (canAttack)
-      playerAnimationManager.stateInfo.attacking = false;
+
+  }
+
+  private IEnumerator StopAttackAnimation()
+  {
+    yield return new WaitForSeconds(0.3f);
+    playerAnimationManager.stateInfo.attacking = false;
   }
 
   public void SetDirectionalInput(Vector2 input)
@@ -202,6 +215,26 @@ public class Player : MonoBehaviour
   //   }
 
   // }
+
+  public void TakeDamage(int damageAmount)
+  {
+    playerData.health -= damageAmount;
+    if (playerData.health <= 0)
+    {
+      playerData.health = 0;
+      Die();
+    }
+    playerDisplay.SetHearts();
+  }
+
+  public void Die()
+  {
+    canMove = false;
+    canJump = false;
+    canWallJump = false;
+    canDoubleJump = false;
+    canAttack = false;
+  }
 
   void CalculateVelocity()
   {

@@ -5,12 +5,12 @@ using UnityEngine;
 public class Hazards : MonoBehaviour
 {
 
-
-    private void OnTriggerEnter2D(Collider2D collision)
+  public int damage;
+  private void OnTriggerEnter2D(Collider2D collision)
+  {
+    if (collision.tag == "Player")
     {
-        if (collision.tag == "Player")
-        {
-            collision.GetComponent<PlayerData>().health -= 1;
-        }
+      collision.GetComponent<Player>().TakeDamage(100);
     }
+  }
 }
