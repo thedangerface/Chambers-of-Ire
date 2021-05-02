@@ -7,9 +7,11 @@ public class LevelManager : MonoBehaviour
   public static LevelManager instance;
   public Vector3 startPos;
   public Vector3 endPos;
-  public int totalEnemies;
+  public int startEnemies;
   public int currentEnemies;
   public GameObject player;
+
+  public GameObject levelEnd;
 
   private void Awake()
   {
@@ -23,6 +25,10 @@ public class LevelManager : MonoBehaviour
   public void DecrementEnemies()
   {
     currentEnemies--;
+    if (currentEnemies == 0)
+    {
+      FinishLevel();
+    }
   }
 
   public void ResetPlayer()
@@ -30,8 +36,8 @@ public class LevelManager : MonoBehaviour
     player.transform.position = startPos;
   }
 
-  public void FinishLevel()
+  private void FinishLevel()
   {
-
+    levelEnd.SetActive(true);
   }
 }

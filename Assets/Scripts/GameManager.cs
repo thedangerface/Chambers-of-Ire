@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
   private static GameManager _instance;
-  public static GameManager Instance { get { return _instance; } }
+  public static GameManager instance { get { return _instance; } }
 
   // list of all levels
   public List<string> allLevels = new List<string> {
@@ -34,6 +34,11 @@ public class GameManager : MonoBehaviour
     {
       _instance = this;
     }
+  }
+
+  public void RestartLevel()
+  {
+    LoadScene(allLevels[currentLevelIndex]);
   }
 
   public void LoadScene(string sceneName)

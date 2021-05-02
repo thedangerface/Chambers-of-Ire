@@ -10,7 +10,7 @@ public class Hazards : MonoBehaviour
   {
     if (collision.tag == "Player")
     {
-      collision.GetComponent<Player>().AdjustHealth(-10);
+      collision.GetComponent<Player>().AdjustHealth(damage);
     }
   }
 }

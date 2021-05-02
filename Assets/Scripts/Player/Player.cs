@@ -229,6 +229,9 @@ public class Player : MonoBehaviour
       Die();
     }
 
+    if (playerData.health > 8)
+      playerData.health = 8;
+
     playerDisplay.SetHearts();
   }
 

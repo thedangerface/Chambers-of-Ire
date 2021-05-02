@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class EnemyCollisionManager : MonoBehaviour
 {
-    [SerializeField] Animator animator;
+  [SerializeField] Animator animator;
+  private Enemy enemyScript;
 
-    private void Start()
+  private void Start()
+  {
+    enemyScript = GetComponent<Enemy>();
+    animator = gameObject.GetComponent<Animator>();
+  }
+  private void OnTriggerEnter2D(Collider2D collision)
+  {
+    //Debug.Log("Trigger entered: " + collision.gameObject.name);
+    if (collision.gameObject.tag == "attack box")
     {
-        animator = gameObject.GetComponent<Animator>();
+      int damageAmount = collision.GetComponent<AttackBox>().damageAmount;
+      animator.SetTrigger("damaged");
+      enemyScript.TakeDamage(damageAmount);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        //Debug.Log("Trigger entered: " + collision.gameObject.name);
-        if (collision.gameObject.tag == "attack box")
-        {
-            animator.SetTrigger("damaged");
-        }
-    }
+  }
 }
