@@ -14,7 +14,7 @@ public class LevelEnd : MonoBehaviour
         GetComponent<Animator>().SetBool("close", true);
         // trigger player walk in animation
         // end level
-        GameManager.instance.RestartLevel();
+        GameManager.instance.LoadNextLevel();
       }
     }
   }
