@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
   float runSpeedIncrease = 1.75f;
   public float moveSpeed = 4f;
 
+  private int knockbackForce = 20;
+
   // Jump
   public float maxJumpHeight = 3.25f;
   public float minJumpHeight = 0.5f;
@@ -43,7 +45,7 @@ public class Player : MonoBehaviour
   [Header("Abilities")]
   public bool canMove = true;
   public bool canJump = true;
-  public bool canWallJump = false;
+  // public bool canWallJump = false;
   public bool canDoubleJump = true;
   public bool canAttack = true;
 
@@ -52,6 +54,8 @@ public class Player : MonoBehaviour
 
   private PlayerData playerData;
   public PlayerDisplay playerDisplay;
+
+  private bool reviving = false;
 
   void Start()
   {
@@ -88,6 +92,26 @@ public class Player : MonoBehaviour
 
     if (controller.collisions.below && jumps != 0)
       jumps = 0;
+  }
+
+  public void Knockback(Vector3 enterPoint)
+  {
+    if (reviving)
+      return;
+
+    int knockBackForceX = 0;
+
+    if (enterPoint.x <= 0)
+    {
+      knockBackForceX = knockbackForce;
+    }
+    else
+    {
+      knockBackForceX = -knockbackForce;
+    }
+
+    velocity.x = knockBackForceX;
+    velocity.y = 10;
   }
 
   public void OnAttackInputDown()
@@ -239,24 +263,27 @@ public class Player : MonoBehaviour
   {
     canMove = false;
     canJump = false;
-    canWallJump = false;
+    // canWallJump = false;
     canDoubleJump = false;
     canAttack = false;
     playerAnimationManager.ToggleDeath(true);
-    StartCoroutine(ReviveRoutine());
+    if (!reviving)
+      StartCoroutine(ReviveRoutine());
   }
 
   IEnumerator ReviveRoutine()
   {
+    reviving = true;
     yield return new WaitForSeconds(5);
     Revive();
+    reviving = false;
   }
 
   public void Revive()
   {
     canMove = true;
     canJump = true;
-    canWallJump = false;
+    // canWallJump = false;
     canDoubleJump = true;
     canAttack = true;
     LevelManager.instance.ResetPlayer();

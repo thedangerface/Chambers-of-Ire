@@ -10,7 +10,10 @@ public class Hazards : MonoBehaviour
   {
     if (collision.tag == "Player")
     {
-      collision.GetComponent<Player>().AdjustHealth(damage);
+      Vector3 enterPoint = transform.position - collision.transform.position;
+      Player player = collision.GetComponent<Player>();
+      player.AdjustHealth(damage);
+      player.Knockback(enterPoint);
     }
   }
 }

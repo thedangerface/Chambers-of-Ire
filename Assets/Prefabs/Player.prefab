@@ -560,6 +560,7 @@ MonoBehaviour:
   timescale: 1
   animationState: 0
   animator: {fileID: 398852373662809220}
+  alive: 1
 --- !u!50 &398852373662809216
 Rigidbody2D:
   serializedVersion: 4
@@ -644,16 +645,13 @@ MonoBehaviour:
   maxJumpHeight: 3.25
   minJumpHeight: 0.5
   timeToJumpApex: 0.4
-  wallJumpClimb: {x: 2, y: 10}
-  wallJumpOff: {x: 3, y: 6}
-  wallLeap: {x: 5, y: 14}
-  wallSlideSpeedMax: 3
-  wallStickTime: 0.25
+  attackHitBox: {fileID: 398852373867055202}
   canMove: 1
   canJump: 1
   canWallJump: 1
   canDoubleJump: 1
   canAttack: 1
+  playerDisplay: {fileID: 0}
 --- !u!114 &540773570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -691,13 +689,14 @@ GameObject:
   - component: {fileID: 398852373867055231}
   - component: {fileID: 398852373867055200}
   - component: {fileID: 398852373867055201}
-  m_Layer: 10
+  - component: {fileID: 735575123}
+  m_Layer: 9
   m_Name: attack 1 - attack box
   m_TagString: attack box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &398852373867055231
 Transform:
   m_ObjectHideFlags: 0
@@ -758,11 +757,26 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.0862994, y: 0.08076315}
-      - {x: -0.10634651, y: 0.04315351}
+    - - {x: 0.11349258, y: 0.07146011}
+      - {x: 0.025688177, y: 0.16093938}
+      - {x: -0.086299315, y: 0.22518712}
+      - {x: -0.046743616, y: 0.061802726}
       - {x: -0.011846602, y: -0.1325422}
-      - {x: 0.076824285, y: -0.13549605}
-      - {x: 0.012547156, y: -0.029120643}
+      - {x: 0.3368788, y: -0.13674143}
+      - {x: 0.18974662, y: 0.023365691}
+--- !u!114 &735575123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398852373867055202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2de7d90b7fb347f9a2ec3d50a21ee07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 1
 --- !u!1 &398852374134045910
 GameObject:
   m_ObjectHideFlags: 0
